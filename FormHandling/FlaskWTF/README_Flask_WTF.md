@@ -89,6 +89,7 @@ def index():
 - `{{ form.csrf_token }}`: Adds CSRF protection.
 - Fields like `username` and `password` are rendered using `label` and field variables.
 - The form is only processed if submitted and valid.
+- To see results, add /Signup to the URL
 
 ### Flask Route:
 
