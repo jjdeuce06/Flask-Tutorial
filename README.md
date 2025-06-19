@@ -12,3 +12,8 @@ This tutorial walks you through the full development process with Flask, coverin
 
 Whether you're just starting with Flask or exploring advanced features, this guide is designed to help you build scalable, maintainable web applications.
 For the full tutorial, visit this link: https://www.geeksforgeeks.org/python/flask-tutorial/
+
+# Order to follow
+ - QuickStart
+ - TemplatesAndStaticFiles
+ - FormHandling
