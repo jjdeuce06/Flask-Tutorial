@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask and SQLite </title>
+    </head>
+    <body>
+        <h1>Build Web App Using Flask and SQLite</h1>
+        <button class="btn" id="joinBtn" type="button">Fill form to get updates</button><br/>
+        <button class="btn" id="participantsBtn" type="button">Check participant list</button>
+
+        <script>
+            // Inject URLs into JS using data attributes or global vars
+            const joinUrl = "{{ url_for('join') }}";
+            const participantsUrl = "{{ url_for('participants') }}";
+
+            document.getElementById("joinBtn").addEventListener("click", function () {
+                window.location.href = joinUrl;
+            });
+
+            document.getElementById("participantsBtn").addEventListener("click", function () {
+                window.location.href = participantsUrl;
+            });
+        </script>
+    </body>
+</html>
